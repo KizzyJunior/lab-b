@@ -18,6 +18,7 @@
 <!-- STEP 9: Validate your completed page at https://validator.w3.org/ and repair any errors - then .zip all your files up and submit your work -->
 <!-- STEP 10: Upload all files for this lab to your Web server in https://YOUR-SERVERNAME-HERE/week5/lab5/ (URL example would be on a Microsoft Azure server instance) -->
 			<h1>HTML, CSS, and JS Fundamentals</h1>
+			<img src="images/html-logo.svg" height="150" width="150" alt="A lego logo"/>
 			<h2>Building Blocks for Web Developers</h2>
 		</header>
 		<!-- Page-level main content -->
@@ -61,9 +62,13 @@
 				</blockquote>
 				<p>Take a little time every day to just <strong>play</strong> with technology – you’ll be surprised how much you learn.</p>
 <!-- STEP 4: Surround the IMG element below with a pair of FIGURE tags -->
-
+				<figure>
 <!-- STEP 1: Insert an IMG element with the src attribute pointing to the image called "mini-figure" in the 'images' directory -->
-
+					<img src="images/mini-figure.png" alt="Lego Figure" width="176" height="285" />
+					<figcaption>
+						<p><a href="https://openclipart.org/detail/224315/clip-is-a-brick-minifig-4">Mini figure by Vanja (Public Domain)</a></p>
+					</figcaption> 
+				</figure>	
 <!-- STEP 2: Add an alt attribute with a short phrase that describes the image -->
 <!-- STEP 3: Determine the native image dimensions (height and width) using your file system, and add a height and width attribute to the IMG element above with the appropriate values -->
 <!-- STEP 5: Add a FIGCAPTION element below (but before you close the FIGURE element), and add the caption, "Mini figure by Vanja (Public Domain)" -->
